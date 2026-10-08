@@ -7,6 +7,9 @@ class Janus < Formula
 
   # The janus runtime requires Bash 4+ (wait -n, etc.); macOS ships 3.2.
   depends_on "bash"
+  # The standalone bundle resolves color via a `cprintf` on PATH (else plain text).
+  # Depend on it so a Homebrew install has colored output out of the box.
+  depends_on "antonjk/tap/cprintf"
 
   def install
     # Build the standalone single-file janus (runtime inlined; no include/ needed).
