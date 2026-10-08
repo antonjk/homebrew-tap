@@ -19,3 +19,5 @@ brew install antonjk/tap/janus
 
 - **janus** — run annotated shell scripts as concurrent, grouped,
   progress-tracked steps. <https://github.com/antonjk/janus>
+- **cprintf** — printf with XML-style markup for terminal colors and text effects.
+  <https://github.com/antonjk/bash-cprintf>
