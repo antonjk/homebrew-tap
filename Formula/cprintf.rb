@@ -1,8 +1,8 @@
 class Cprintf < Formula
   desc "Printf with XML-style markup for terminal colors and text effects"
   homepage "https://github.com/antonjk/bash-cprintf"
-  url "https://github.com/antonjk/bash-cprintf/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "9060cf85d18284402658eae92c47d6a1f971ea4a9d5f736783f6e9e9df35f39c"
+  url "https://github.com/antonjk/bash-cprintf/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "cc8193df76c63bd93aa23cc442552ad0979f07f9766154b4c3f5cd96777a67b6"
   license "MIT"
 
   # cprintf uses associative arrays, namerefs, and ${var^^}; requires Bash 4+.
