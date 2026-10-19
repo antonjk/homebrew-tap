@@ -1,8 +1,8 @@
 class Janus < Formula
   desc "Run annotated shell scripts as concurrent, grouped, progress-tracked steps"
   homepage "https://github.com/antonjk/janus"
-  url "https://github.com/antonjk/janus/archive/refs/tags/v1.1.2.tar.gz"
-  sha256 "f38739b7d1a4e36cf33a77bbc77bedf079c88b396bb62d224711ae003ad8cd33"
+  url "https://github.com/antonjk/janus/archive/refs/tags/v1.2.0.tar.gz"
+  sha256 "2656f334b39d3672e5cba60aebff4eb6572a315762decce44cd32906498a39e2"
   license "MIT"
 
   # The janus runtime requires Bash 4+ (wait -n, etc.); macOS ships 3.2.
